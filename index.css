@@ -6,31 +6,120 @@ html, body {
 body {
     font-family: 'Source Sans 3', sans-serif;
     font-size: small;
+    background-color: white;
 }
 
 /* typography */
 
 h2{
-    margin: 0;
+    margin: 10px 0px 0px 0px;
 }
 
-.location{
-    margin: 0 0 10px 0;
+.location {
+    margin: 0px;
 }
 
+.likes {
+    margin: 0px 10px 10px 10px;
+    font-weight: bold;
+}
+
+.comment {
+    margin: 10px 10px 0px 10px;
+}
+
+/* buttons */
+
+.buttons {
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 15px 10px 10px 10px;
+}
+
+.heart-btn {
+    background-image: url("./images/icon-heart.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.dm-btn {
+    background-image: url('./images/icon-dm.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.comment-btn {
+    background-image: url('./images/icon-comment.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.buttons:hover, .buttons:focus {
+    opacity: 0.7;
+}
+.buttons:active {
+    opacity: 0.5;
+}
 
 /* layout */
 
-
-.container {
+.main-container {
     width: 550px;
-    border: 1px solid red;
     margin: 0 auto;
 }
 
+header {
+    border-bottom: #f3f3f3 solid 3px;
+}
+
+main, header {
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+main {
+    background-color: whitesmoke;
+}
+
+section {
+    margin-top: 2.5rem;
+    background-color: white;
+    padding: 20px 0;
+}
+
+.container {
+    
+    background-color: white;
+
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 35%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
 .name-location {
-    display:inline-block;
-    margin: 5px 10px 10px 5px;
+    display: inline-block;
+    margin-left: 10px;
+    
 }
 
 .avatar {
@@ -43,3 +132,4 @@ h2{
 .post {
     width:100%
 }
+
