@@ -28,6 +28,10 @@ h2{
     margin: 10px 10px 0px 10px;
 }
 
+.username {
+    font-weight: bold;
+}
+
 /* buttons */
 
 .buttons {
@@ -116,7 +120,7 @@ section {
     margin-bottom: 10px;
 }
 
-.name-location {
+.user-info {
     display: inline-block;
     margin-left: 10px;
     
@@ -129,7 +133,7 @@ section {
     margin: 15px 5px 0px 15px;
 }
 
-.post {
+.post-image {
     width:100%
 }
 
